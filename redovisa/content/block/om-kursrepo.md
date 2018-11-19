@@ -1,3 +1,3 @@
 #### Kursrepo
 
-Skriv något kort om kursen och länka till [kursens hemsida på dbwebb.se](XXX) och till [kursrepot på GitHub](https://github.com/straycatse/design).
+I denna kurs går vi igenom design och styling med olika ramverk. [kursens hemsida på dbwebb.se](http://dbwebb.se) och till [kursrepot på GitHub](https://github.com/straycatse/design).
