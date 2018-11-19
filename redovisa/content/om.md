@@ -27,10 +27,8 @@ views:
 Om
 =========================
 
-Detta innehåll är skrivet i markdown och du hittar innehållet i filen `content/om.md`.
+I denna kurs lär jag mig mer om styling och hur man bygger hemsidor med ramverk.
 
-Skriv några kloka ord om kursen?
+Jag tycker att det ska bli väldigt kul och lärorikt då jag gärna vill jobba med ramverk som Angular och React i framtiden.
 
-Lägg till en representativ bild för kursen, enligt ditt egna val.
-
-[FIGURE src=image/car.png?w=300 caption="En fin bil som demobild."]
+[FIGURE src=image/Angular_full_color_logo.png?w=300 caption="Angulars logotyp"]

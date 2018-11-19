@@ -6,5 +6,5 @@
   </figcaption>
   </figure>
 
-  <p>Simon Solberg är en student på Blekinge Tekniska Högskola terminen HT2018.</p>
+  <p>Simon Solberg är en 21-årig student på Blekinge Tekniska Högskola terminen HT2018.</p>
 </div>

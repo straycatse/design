@@ -15,23 +15,85 @@
     display: none;
 }
 
+ {
+  margin: 0;
+  padding: 0;
+}
+
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 
 body{
   font-family: 'Ubuntu', sans-serif;
+  background-color: #000;
+  overflow-y: scroll;
 }
 
 .wrap-all {
   max-width: 1200px;
   margin: 0 auto;
+  background-color: #fafafa;
+  min-height: 90vh;
+}
+
+.outer-wrap.outer-wrap-main{
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 .site-logo {
   display: none;
 }
 
+.outer-wrap.outer-wrap-header .row .region-header{
+  min-height: 10vh;
+}
+
+.region-header-col-1 {
+  width: 25%;
+  float: left;
+}
+
+.region-header-col-2 {
+  width: auto;
+  float: right;
+}
+.rm-navbar ul{
+  float: right;
+  list-style-type: none;
+  padding: 0;
+}
+
+.rm-navbar li {
+  display: inline;
+  margin-left: 15px;
+  margin-top: 0;
+}
+
+.author-byline {
+  padding: 15px;
+  border: 1px black solid;
+}
+
+.region-footer {
+  display: inline;
+  padding-bottom: 55px;
+}
+
 .footer-column {
   width: 33%;
   float: left;
-  ma
+  /* border-left: 1px black dotted; */
+  padding: 15px;
+  clear: block;
+  display: block;
+  box-sizing: border-box;
+}
+
+.footer-column:first-child {
+  border: none;
+}
+
+.block.site-footer {
+  margin: auto;
+  text-align: center;
 }
