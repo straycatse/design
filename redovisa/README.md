@@ -1,3 +1,3 @@
 # design
 
-Detta är mina projekt för kursmomenten i kursen Design på BTH.
+Detta är min redovisningssida för kursen Design på BTH.
