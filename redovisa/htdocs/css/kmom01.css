@@ -14,3 +14,24 @@
 .rm-navbar-max {
     display: none;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.wrap-all {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.site-logo {
+  display: none;
+}
+
+.footer-column {
+  width: 33%;
+  float: left;
+  ma
+}
