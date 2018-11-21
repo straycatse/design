@@ -1,0 +1,121 @@
+/**
+ * Layout style for general structure of header, navbar, main, footer
+ * and other regions of the page including route specific styles.
+ */
+
+/**
+ * Variables
+ */
+
+
+/**
+ * General layout
+ */
+.wrap-all {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fafafa;
+  min-height: 90vh;
+}
+
+.outer-wrap.outer-wrap-main{
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.site-logo {
+  display: none;
+}
+
+.outer-wrap.outer-wrap-header .row .region-header{
+  min-height: 10vh;
+}
+
+// .region-header-col-1 {
+//   width: 25%;
+//   float: left;
+// }
+//
+// .region-header-col-2 {
+//   width: auto;
+//   float: right;
+// }
+
+// .rm-navbar ul{
+//   float: right;
+//   list-style-type: none;
+//   padding: 0;
+// }
+
+// .rm-navbar li {
+//   display: inline;
+//   margin-right: 15px;
+//   margin-top: 0;
+// }
+
+.region-main.has-sidebar-left.has-sidebar {
+  width: 75%;
+  float: right;
+}
+
+.region-main.has-sidebar-right.has-sidebar {
+  width: 75%;
+  float: left;
+}
+
+li {
+  list-style-type: none;
+  font-weight: bold;
+}
+
+.wrap-sidebar.region-sidebar-left {
+  width: auto;
+  float: left;
+}
+
+.wrap-sidebar.region-sidebar-right {
+  width: 25%;
+  float: right;
+}
+
+.outer-wrap {
+  overflow: auto;
+}
+
+.author-byline {
+  padding: 15px;
+  border: 1px black solid;
+}
+
+.region-footer {
+  display: inline;
+  padding-bottom: 55px;
+}
+
+.outer-wrap.outer-wrap-footer{
+  box-sizing: border-box;
+}
+
+.inner-wrap.inner-wrap-footer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-column {
+  width: 33%;
+  float: left;
+  /* border-left: 1px black dotted; */
+  padding: 15px;
+  clear: block;
+  display: block;
+  box-sizing: border-box;
+}
+
+.footer-column:first-child {
+  border: none;
+}
+
+.block.site-footer {
+  margin: auto;
+  text-align: center;
+}
