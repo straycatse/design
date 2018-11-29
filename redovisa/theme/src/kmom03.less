@@ -32,6 +32,11 @@
 @import "@desinax/vertical-grid/less/grid.less";
 @import "layout/layout_vgrid.less";
 
+/**
+ * Import the typographic grid.
+ */
+@import "@desinax/typographic-grid/less/typography-font-families.less";
+@import "@desinax/typographic-grid/less/typography-defaults.less";
 
 // Default grid, change to fit your requirements.
 // @columnWidth:   30;
@@ -39,7 +44,21 @@
 // @columns:       24;
 // @gridType:      "float"; // "flex"
 
+// Activate the grid base font
+body {
+    #desinax-hgrid.font(@fontSizeBody);
+}
 
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
+
+// Show the grid
+.hgrid .wrap {
+    @gridImage: "../img/magic-number-@{magicNumber}.png";
+    #desinax-hgrid.showGrid(@gridImage);
+}
+
+@fontFamilyBody: "serif";
 
 /**
  * Layout style for general structure of header, navbar, main, footer
