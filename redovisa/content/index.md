@@ -13,7 +13,7 @@ views:
 Min me-sida i kursen design
 =========================
 
-[FIGURE src="image/me.jpg?w=500" class="right" caption="Bild på mig"]
+[FIGURE src="image/me.jpg?w=300" class="right" caption="Bild på mig"]
 
 Detta är min me-sida som jag gör för kursen Design på BTH hösten 2018.
 
