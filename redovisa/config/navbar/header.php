@@ -30,6 +30,11 @@ return [
                         "url" => "redovisning/kmom02",
                         "title" => "Redovisning för kmom02.",
                     ],
+                    [
+                        "text" => "Kmom03",
+                        "url" => "redovisning/kmom03",
+                        "title" => "Redovisning för kmom03.",
+                    ],
                 ],
             ],
         ],
@@ -52,6 +57,11 @@ return [
             "text" => "Lek",
             "url" => "test",
             "title" => "Lek runt med olika konstruktioner",
+        ],
+        [
+            "text" => "Rapport",
+            "url" => "rapport",
+            "title" => "Mina rapporter",
         ],
     ],
 ];
