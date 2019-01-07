@@ -10,11 +10,6 @@ return [
     // Here comes the menu items
     "items" => [
         [
-            "text" => "Hem",
-            "url" => "",
-            "title" => "Första sidan, börja här.",
-        ],
-        [
             "text" => "Redovisning",
             "url" => "redovisning",
             "title" => "Redovisningstexter från kursmomenten.",
@@ -62,6 +57,11 @@ return [
             "text" => "Rapport",
             "url" => "rapport",
             "title" => "Mina rapporter",
+        ],
+        [
+            "text" => "Design",
+            "url" => "design",
+            "title" => "Testar designelement",
         ],
     ],
 ];

@@ -1,0 +1,48 @@
+/**
+ * Base style to affect HTML elements on a general scale.
+ */
+@bgColorHtml: #000;
+@bgColorBody: rgba(0, 0, 0, 0.6);
+@colorBody: #fff;
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif+TC');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+html {
+    // overflow-y: scroll;
+    background-color: @bgColorHtml;
+    background-image: url("../img/carbon.jpg");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: @colorBody;
+    background-color: @bgColorBody;
+    // font: 100.01%/1 @fontFamilyBody;
+    // font-family: 'Ubuntu', sans-serif;
+    #desinax-hgrid.font(@fontSizeBody);
+    border-color: #fff !important;
+
+}
+
+a:visited {
+  color: teal;
+}
+
+h1.border {
+  border-bottom: solid #fff 4px;
+}
+
+h2.dashed {
+  border-bottom: dashed #fff 4px;
+}
+
+h3.dotted {
+  border-bottom: dotted #fff 4px;
+}
+
+// Activate grid and affect all typographic elements
+#desinax-hgrid.activateDefaultTypography();
