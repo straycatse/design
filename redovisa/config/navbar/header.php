@@ -59,6 +59,11 @@ return [
             "title" => "Mina rapporter",
         ],
         [
+            "text" => "Blogg",
+            "url" => "blogg",
+            "title" => "Min bildblogg",
+        ],
+        [
             "text" => "Design",
             "url" => "design",
             "title" => "Testar designelement",
