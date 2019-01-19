@@ -1,3 +1,3 @@
-#### Nytt och Noterat
+#### Dagens bild
 
-Kortare blogginlägg om vad som händer på dbwebb.se, kurserna samt webbprogrammering och webbutveckling med HTML, CSS, JavaScript, PHP och SQL i allmänhet.
+I denna blogg kommer jag att publicera en bild varje dag. Bilden presenteras i olika format.
